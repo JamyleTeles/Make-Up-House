@@ -1,0 +1,1 @@
+Este é o projeto do meu primeiro site, é só o começo, ainda virá muito mais, eu ainda vou terminar ele mas aqui vai a primeira parte :)
