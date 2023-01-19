@@ -1,0 +1,111 @@
+header{
+    background-color: plum;
+}
+.logo{
+    width: 25%;
+}
+.caixa{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    position:absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{ 
+    margin: 0 0 0 15px;
+    display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+}
+nav a:hover{
+    text-decoration: underline; 
+    color: purple
+     
+}
+.titulo-principal{
+    color:purple;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+#banner{
+    width: 100%;
+    margin-top: 15px;
+}
+body{
+    background-color:white; 
+}
+.principal{
+    background-color: plum; 
+    padding: 75px;
+    color: purple
+}
+.principal h2{
+    color: white;
+    font-size: 30px;
+    padding: 25px;
+}
+.titulo-centralizado{
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 25px
+    
+}
+#missao{
+    font-size: 25px;
+    
+}
+strong{
+    color:rgb(238, 81, 81)
+}
+em strong {
+    color: purple
+}
+.itens {
+    font-style: italic;
+}
+.beneficios{
+    font-size: 30px;
+    background-color: white ;
+    padding: 30px
+    
+}
+.beneficios h3{
+    color: purple;
+}
+.itens-beneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 10%;
+    color: purple;
+    margin-top: 150px;
+}
+.imagembeneficio{
+    width: 50%;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    background-color: plum;
+    padding: 40px 0;
+}
+.copyright{
+    margin-top: 50px;
+    font-size: 13px;
+    color:white  
+
+}
