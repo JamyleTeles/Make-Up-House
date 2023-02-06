@@ -1,17 +1,19 @@
 header{
     background-color: plum;
+    padding: 10px 0;
+    
 }
 .logo{
     width: 25%;
 }
 .caixa{
     position: relative;
-    width: 1000px;
+    width: 940px;
     margin: 0 auto;
 }
 nav{
     position:absolute;
-    top: 110px;
+    top: 50%;
     right: 0;
 }
 nav li{
@@ -29,6 +31,10 @@ nav a:hover{
     text-decoration: underline; 
     color: purple
      
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    
 }
 .produtos{ 
     padding: 50px, 0 ; 
@@ -78,18 +84,26 @@ footer{
     font-size: 13px;
     color:white
 }
+
 main{
+    width: 940px;
     margin: 0 auto;
-    width: 1000px;
-    
 }
+
 form{
-    margin: 40px 0;
+    /*margin: 40px 0;*/
+    width: 940px;
+    margin: 40px auto;
 }
+
 form label, form legend{
     display:block;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 0 10px;
+    
+}
+form legend{
+    padding: 10px 0 0 0;
 }
 .input-padrao{
     display:block;
@@ -132,3 +146,58 @@ td, th{
     border: 1px solid purple
     
 }
+
+/*@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+
+    h1, nav {
+        text-align: center;
+        padding: 0 0 0 -10px;
+    }
+
+    .logo{
+        width: 50%;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a{
+        font-size: 18px;
+    }
+
+    .produtos{
+        width: auto;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .produtos li {
+        margin: 2em 1em;
+        display: block;
+    }
+
+    form {
+    }
+
+    .input-padrao {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    form label, form legend {
+        margin: 0 0 10px;
+    }
+
+    .enviar {
+        width: 70%;
+        margin: 0 1.5%;
+        padding: 15px 10px;
+    }
+
+    table {
+        margin: 2em auto;
+    }
+}*/

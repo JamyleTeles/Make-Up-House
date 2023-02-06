@@ -1,17 +1,18 @@
 header{
     background-color: plum;
+    padding: 10px 0;
 }
 .logo{
     width: 25%;
 }
 .caixa{
     position: relative;
-    width: 1000px;
+    width: 940px;
     margin: 0 auto;
 }
 nav{
     position:absolute;
-    top: 110px;
+    top: 50%;
     right: 0;
 }
 nav li{ 
@@ -30,41 +31,69 @@ nav a:hover{
     color: purple
      
 }
+.banner{
+    width: 100%;
+    /*margin-top: 15px;*/
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+/*main{
+    margin:0 auto;
+    width:940px;
+}*/
+
+.principal {
+    background-color: #FEFEFE; 
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.principal p {
+    margin: 1em 1em 0em;
+}
+
+.imagemcuidados{
+    width: 200px;
+    float: left;
+    margin: 30px 20px 20px 20px;
+   /* padding-left: 50px;
+    padding-top: -50px;*/
+}
+
 .titulo-principal{
     color:purple;
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+    margin: 0 0 1m;
+    clear: left;
 }
-#banner{
-    width: 100%;
-    margin-top: 15px;
-}
-body{
-    background-color:white; 
-}
-.principal{
-    background-color: plum; 
-    padding: 75px;
-    color: purple
-}
-.principal h2{
-    color: white;
-    font-size: 30px;
+
+/*.titulo-beneficios{
+    color: purple;
+    font-weight: bold;
+    font-size: 45px;
     padding: 25px;
-}
+    text-align: center;
+}*/
+
 .titulo-centralizado{
     font-size: 25px;
     text-align: center;
 }
 p{
-    font-size: 25px;
-    text-align: center;
-    margin: 0 25px
-    
+    font-size: 20px;
+    text-align: left;
+    margin: 0 25px;
+    line-height: 1.5;
 }
 #missao{
-    font-size: 25px;
+    font-size: 20px;
     
 }
 strong{
@@ -73,39 +102,140 @@ strong{
 em strong {
     color: purple
 }
-.itens {
-    font-style: italic;
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, plum);
 }
+
+.mapa p {
+    margin: 1em 0 2em;
+    text-align: center;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+} 
+
 .beneficios{
-    font-size: 30px;
-    background-color: white ;
-    padding: 30px
-    
+    padding: 3em 0;  
+    background-color: plum;
 }
-.beneficios h3{
-    color: purple;
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
 }
-.itens-beneficios{
+
+.lista-beneficios{
     display: inline-block;
+    width: 40%;
+    color: white;
+    margin-top: 50px;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    margin-left: 10%;
-    color: purple;
-    margin-top: 150px;
+    font-size: 20px;
 }
-.imagembeneficio{
+
+.itens {
+    line-height: 1.75;
+}
+
+.itens:nth-child(2n){
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★ ";
+}
+
+.imagem-beneficios{
     width: 50%;
     margin-top: 50px;
+    opacity:1;
+    transition: 500ms;
+    box-shadow: 10px 10px 10px 0  rgb(150,150,150);
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.5;
+}
+
+.video {
+    margin: 2em auto;
+    width: 560px;
+}
+.video p{
+    margin: 0 0 2em;
+    text-align: center;
 }
 footer{
     text-align: center;
-    background-color: plum;
+    background-color: purple;
     padding: 40px 0;
+    
 }
 .copyright{
+    text-align: center;
     margin-top: 50px;
     font-size: 13px;
     color:white  
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1, nav {
+        text-align: center;
+        padding: 0 0 0 -10px;
+    }
+
+    .logo{
+        width: 50%;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a{
+        font-size: 18px;
+    }
+    
+    .banner{
+        height: 150%;
+    }
+
+    .principal, .mapa, .beneficios{
+        padding: 2em 0;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titulo-principal{
+        font-size: 35px;  
+    }
+
+    .imagemcuidados{
+        width: 150px;
+    }
+
+    .lista-beneficios{
+        text-align: center;
+    }
+
+    .imagem-beneficios{
+        width: 90%;
+        margin: 10% auto;
+        display: block;
+    }
+
+    .video, .mapa-conteudo{
+        margin: 10px;
+    }
 
 }
